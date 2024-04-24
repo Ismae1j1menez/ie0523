@@ -1,0 +1,26 @@
+# read design 
+read_verilog Controlador_banco.v
+
+# elaborate design hierarchy
+hierarchy -check -top Controlador_banco
+
+# the high-level stuff
+proc; opt; fsm; opt; memory; opt
+
+# mapping to internal cell library
+techmap; opt
+
+# mapping flip-flops to cmos_cells.lib
+dfflibmap -liberty ./cmos_cells.lib
+
+# mapping logic to cmos_cells.lib
+abc -liberty ./cmos_cells.lib
+
+#Numero de compontnetes y flip-flops
+stat
+
+# cleanup
+clean
+
+# write synthesized design
+write_verilog Banco_synth.v
