@@ -1,6 +1,6 @@
 # Repositorio de Tareas del Curso IE-0523 - Circuitos Digitales 2
 
-Este repositorio alberga las tareas correspondientes al curso de Circuitos Digitales 2 (IE-0523), las cuales incluyen una serie de diseños y simulaciones de circuitos digitales complejos y protocolos de comunicación. Cada tarea está organizada en su propia carpeta y contiene todos los archivos necesarios para la síntesis y simulación de los circuitos.
+Este repositorio alberga las tareas correspondientes al curso de Circuitos Digitales 2 (IE-0523), las cuales incluyen una serie de diseños y simulaciones de circuitos digitales complejos y protocolos de comunicación en verilog. Cada tarea está organizada en su propia carpeta y contiene todos los archivos necesarios para la síntesis y simulación de los circuitos.
 
 ## Organización de las Tareas
 
